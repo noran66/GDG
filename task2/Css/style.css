@@ -1,0 +1,311 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  line-height: 1.5;
+}
+
+/* --- Utility Classes --- */
+.container {
+  width: 85%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* --- Hero Section --- */
+.hero {
+  background-image: url("images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+.hero .CP_img {
+  margin-bottom: 50px;
+}
+
+.hero .CP_img img {
+  width: 120px;
+}
+
+.hero h1 {
+  color: #4c545d;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  color: #9fabb2;
+  font-size: 20px;
+  max-width: 650px;
+  margin: 0 auto 40px auto;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.buttons button {
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  opacity: 0.8;
+}
+
+.btn-ios {
+  background-color: #26baa4;
+  border-bottom: 2px solid #1f9483;
+}
+
+.btn-mac {
+  background-color: #6173ff;
+  border-bottom: 2px solid #4a59cc;
+}
+
+/* --- Section 2: Keep Track --- */
+.section2 {
+  padding: 100px 0;
+}
+
+.section2 .main-header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 80px auto;
+}
+
+.section2 .main-header h2 {
+  font-size: 32px;
+  color: #4c545d;
+  margin-bottom: 20px;
+}
+
+.section2 .main-header p {
+  color: #9fabb2;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.mac-img {
+  width: 50%;
+  float: left;
+  position: relative;
+  left: -40px;
+}
+
+.mac-img img {
+  width: 100%;
+  display: block;
+}
+
+.features {
+  width: 40%;
+  float: right;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+.feature {
+  margin-bottom: 40px;
+}
+
+.feature .heading {
+  font-size: 24px;
+  color: #4c545d;
+  margin-bottom: 10px;
+}
+
+.feature .text {
+  font-size: 16px;
+  color: #9fabb2;
+  line-height: 1.6;
+  max-width: 350px;
+}
+
+/* --- Section 3: Access Anywhere --- */
+.section3 {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.section3 .main-header {
+  max-width: 700px;
+  margin: 0 auto 80px auto;
+}
+
+.section3 .main-header h2 {
+  font-size: 32px;
+  color: #4c545d;
+  margin-bottom: 20px;
+}
+
+.section3 .main-header p {
+  color: #9fabb2;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.section3 .devies-img {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section3 .devies-img img {
+  width: 100%;
+}
+
+/* --- Section 4: Workflow --- */
+.section4 {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.section4 .main-header {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.section4 .main-header h2 {
+  font-size: 32px;
+  color: #4c545d;
+  margin-bottom: 20px;
+}
+
+.section4 .main-header p {
+  color: #9fabb2;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.items {
+  margin-top: 80px;
+}
+
+.item {
+  width: 33.33%;
+  float: left;
+  padding: 0 15px;
+}
+
+.item img {
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.item h3 {
+  color: #4c545d;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.item p {
+  color: #9fabb2;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.logos {
+  padding-top: 100px;
+  clear: both;
+  display: block;
+}
+
+.logos img {
+  margin: 20px 30px;
+  max-width: 150px;
+}
+
+/* --- Section 5: Download --- */
+.section5 {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.section5 .main-header {
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+}
+
+.section5 .main-header h2 {
+  font-size: 32px;
+  color: #4c545d;
+  margin-bottom: 20px;
+}
+
+.section5 .main-header p {
+  color: #9fabb2;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* --- Footer --- */
+.footer {
+  background-color: #f5f6f8;
+  padding: 50px 0;
+  margin-top: 50px;
+}
+
+.footer .logo {
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+
+.footer .logo img {
+  width: 60px;
+}
+
+.footer .links {
+  width: 60%;
+  float: left;
+  padding-left: 60px;
+}
+
+.footer .links a {
+  display: inline-block;
+  margin: 10px 20px;
+  color: #4c545d;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.footer .links a:hover {
+  color: #26baa4;
+}
+
+.footer .social {
+  width: 20%;
+  float: right;
+  text-align: center;
+}
+
+.footer .social img {
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+.footer .social img:hover {
+  filter: invert(53%) sepia(66%) saturate(463%) hue-rotate(124deg) brightness(92%) contrast(88%);
+  opacity: 0.7;
+}
