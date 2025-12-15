@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.sec-1{
+    background-image: url(../imgs/pexels-gochrisgoxyz-1477166.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.container{
+    position: relative;
+
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 110px;
+    height: 80px;
+    
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.sub-card{
+    overflow: hidden;
+    position: relative;
+
+}
+.card img{
+    width: 300px;
+    height: 350px;
+    display: block;
+
+}
+
+.layer{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.516);
+    height: 100%;
+    border-radius: 34px;
+}
+.layer .layer-header{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.layer .layer-paragraph{
+    text-align: center;
+}
+.spans{
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.deleted-price{
+    margin-left: 30px;
+    text-decoration: line-through;
+
+}
+.add-btn{
+    padding: 10px;
+    background-color: rgb(85, 133, 15);
+    color: #fff;
+    border: none;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-radius: 25px;
+}
+
