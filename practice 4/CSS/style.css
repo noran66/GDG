@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+span{
+    display: block;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+nav .logo {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Caveat", cursive;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 1rem;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.parent {
+  margin-top: 20px;
+  display: flex;
+}
+.right-side-img {
+  width: 50%;
+}
+.left-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tittle {
+  font-weight: 700;
+}
+.hero-section p {
+  margin-top: 30px;
+}
+.form {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+input {
+  width: 200px;
+  height: 10px;
+  padding: 20px;
+}
+
+.btn {
+  width: 200px;
+  border: none;
+  background-color: lightseagreen;
+  border-radius: 10px;
+  color: white;
+}
+.sec2 {
+  background-image: url(../images/bg-curve-desktop.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.parent2 {
+  margin-top: 20px;
+  display: flex;
+}
+.arrow-logo {
+  width: 20px;
+}
+.left-side2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.left-side2 a {
+  display: flex;
+  color: aqua;
+  margin-top: 30px;
+}
+.sec2 p {
+  /* margin-top: 30px; */
+}
+.note {
+    border: 1px solid black;
+    box-shadow: inset;
+  /* width: 200px; */
+  /* height: 200px; */
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  padding: 15px;
+}
+.note-head {
+  width: 20px;
+
+  /* height: 20px; */
+}
+.person-img {
+  width: 30px;
+  margin-right: 10px;
+}
+.person-img img {
+  border-radius: 50%;
+}
+.person {
+  display: flex;
+}
+
+.sec3{
+    background-color: rgb(167, 130, 232);
+}
